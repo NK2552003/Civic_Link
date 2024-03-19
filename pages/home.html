@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Civic Link</title>
+    <!-- bootstrap 5 css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <!-- BOX ICONS CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/home_style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="../css/style_2.css">
+</head>
+
+<body>
+    <!-- Side-Nav -->
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <ul class="nav flex-column text-white w-100">
+            <a href="#AboutOrContactDiv" class="nav-link h3 text-white my-2">
+                <div class="menu_logo"> <img src="../assets/logo.png" alt="logo" />
+                    Civic Link</div>
+            </a>
+            <li href="#home"
+                onclick="document.getElementById('AboutOrContactDiv').innerHTML=document.getElementById('AboutMeHTML').innerHTML;"
+                class="nav-link">
+                <i class="bx bxs-dashboard"></i>
+                <span class="mx-2">Home</span>
+            </li>
+            <a href="../profile/index.html">
+                <li href="#profile" class="nav-link">
+                    <i class="bx bx-user-check"></i>
+                    <span class="mx-2">Profile</span>
+                </li>
+            </a>
+            <a href="../social-media/index.html">
+                <li href="#" class="nav-link">
+                    <i class="bx bx-group"></i>
+                    <span class="mx-2">WeConnect
+            </a>
+            <a href="../interact/index.html">
+                <li href="#" class="nav-link">
+                    <i class='bx bxs-message-square-minus'></i>
+                    <span class="mx-2">Interact
+            </a>
+            </li></span>
+            <a href="../services/index.html">
+                <li href="#" class="nav-link">
+                    <i class='bx bx-wrench'></i>
+                    <span class="mx-2">Services</span>
+                </li>
+            </a>
+            <a href="./issues.html">
+                <li href="#" class="nav-link">
+                    <i class="bx bx-conversation"></i>
+                    <span class="mx-2">Issues</span>
+                </li>
+            </a>
+            <a href="../entry/entry.html">
+                <li href="#entry" class="nav-link">
+                    <i class="bx bx-door-open"></i>
+                    <span class="mx-2">Entry</span>
+                </li>
+            </a>
+            <a href="../banking/index.html">
+                <li href="#payments" class="nav-link">
+                    <i class="bx bx-wallet"></i>
+                    <span class="mx-2">Payments</span>
+                </li>
+            </a>
+            <a href="../support/index.html">
+                <li href="#support" class="nav-link">
+                    <i class="bx bx-support"></i>
+                    <span class="mx-2">Support</span>
+                </li>
+            </a>
+        </ul>
+
+        <span href="#" class="nav-link h4 w-100 mb-5">
+            <a href="#"><i class="bx bxl-instagram-alt text-white"></i></a>
+            <a href="#"><i class="bx bxl-twitter px-2 text-white"></i></a>
+            <a href="#"><i class="bx bxl-facebook text-white"></i></a>
+        </span>
+    </div>
+
+    <!-- Main Wrapper -->
+    <div class="p-1 my-container active-cont">
+        <!-- Top Nav -->
+        <nav class="navbar top-navbar navbar-dark bg-dark px-5">
+            <div><a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a></div>
+            <div class="right_icon">
+                <a href="../notifications/index.html"><i class="bx bx-bell right_icon"></i></a>
+            </div>
+        </nav>
+        <div id="AboutOrContactDiv" class="frame_div"><img src="../assets/home.svg" style="width:70%;" /><br />
+            <h2 class="bol">&lt;-- Click The links From Navigation bar to Navigate through Pages</h2>
+        </div>
+        <!--End Top Nav -->
+        <div id="AboutMeHTML" style="visibility:hidden;">
+            <header>
+                <div class="sample one">
+                    <input type="text" name="search" placeholder="search">
+                    <button type="submit" class="btn btn-search fa fa-search"></button>
+                </div>
+            </header>
+            <div class="images">
+                <section class="container">
+                    <div class="content">
+                        <div class="promotion-carousel">
+                            <div class="promotions">
+                                <div>
+                                    <div class="promotion" id="section1"
+                                        style="background-image: url(https://picsum.photos/1440/900?image=319)">
+                                        <div class="shade"></div>
+                                        <div class="promo-detail cycle-overlay">
+                                            <div class="promo-text">
+                                                <span class="dash"></span>
+                                                <span class="promo-flag">Latest News</span>
+                                                <a href="#" class="copy">
+                                                    <div class="headline">NEW CONTENT CAPTUTED BY COMMUNITY</div>
+                                                    <p class="body long">Animals and natures pic</p>
+                                                </a>
+                                                <div class="buttons">
+                                                    <a class="button sho-play-link" href="#"></span>Play Now</a>
+                                                    <a class="button info-button" href="#">More Info</a>
+                                                    <a class="button see-all" href="#">All Details</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="heads">
+                                    News of the Week
+                                </div>
+                                <div class="reels-container">
+                                    <div class="reels"
+                                        style="background:url('https://source.unsplash.com/random/?village');">
+                                        <div class="content-reels">
+                                            <p class="heading">Heading Here</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iure, praesentium?
+                                            </p>
+                                            <a href="#" style="text-decoration: underline;">More Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="reels"
+                                        style="background:url('https://source.unsplash.com/random/?boy');">
+                                        <div class="content-reels">
+                                            <p class="heading">Heading Here</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iure, praesentium?
+                                            </p>
+                                            <a href="#" style="text-decoration: underline;">More Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="reels"
+                                        style="background:url('https://source.unsplash.com/random/?people');">
+                                        <div class="content-reels">
+                                            <p class="heading">Heading Here</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iure, praesentium?
+                                            </p>
+                                            <a href="#" style="text-decoration: underline;">More Details</a>
+                                        </div>
+                                    </div>
+                                    <div class="reels">
+                                        <div class="content-reels">
+                                            <p class="heading">Heading Here</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Iure, praesentium?
+                                            </p>
+                                            <a href="#" style="text-decoration: underline;">More Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="marq">
+                                    <marquee direction="left" height="100px">
+                                        This is a sample scrolling text that has scrolls in the upper direction.
+                                    </marquee>
+                                </div>
+                                <!-- This contains the heads information -->
+                                <div class="heads">
+                                    <div>
+                                        <h2>Society Heads</h2>
+                                    </div>
+                                    <div class="heads-card">
+                                        <section class="section-team">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <!-- Start Single Person -->
+                                                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                                                        <div class="single-person">
+                                                            <div class="person-image">
+                                                                <img src="../assets/Gaureesh.png" class="image-profile"
+                                                                    alt="">
+                                                                <span class="icon">
+                                                                    <i class="fab fa-html5"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class="person-info">
+                                                                <h3 class="full-name">Gaureesh B. Tomar</h3>
+                                                                <span class="speciality">Web Developer</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / End Single Person -->
+                                                    <!-- Start Single Person -->
+                                                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                                                        <div class="single-person">
+                                                            <div class="person-image">
+                                                                <img src="../assets/hardik.png" class="image-profile"
+                                                                    alt="">
+                                                                <span class="icon">
+                                                                    <i class="fab fa-wordpress-simple"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class="person-info">
+                                                                <h3 class="full-name">Hardik Chaudhary</h3>
+                                                                <span class="speciality">Content Writer</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / End Single Person -->
+                                                    <!-- Start Single Person -->
+                                                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                                                        <div class="single-person">
+                                                            <div class="person-image">
+                                                                <img src="../assets/Nitish.png" class="image-profile"
+                                                                    alt="">
+                                                                <span class="icon">
+                                                                    <i class="fab fa-angular"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class="person-info">
+                                                                <h3 class="full-name">Nitish Kumar Prajapati</h3>
+                                                                <span class="speciality">Full Stack Developer</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / End Single Person -->
+                                                    <!-- Start Single Person -->
+                                                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                                                        <div class="single-person">
+                                                            <div class="person-image">
+                                                                <img src="../assets/hardik.png" class="image-profile"
+                                                                    alt="">
+                                                                <span class="icon">
+                                                                    <i class="fab fa-js"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class="person-info">
+                                                                <h3 class="full-name">Hardik Chaudhary</h3>
+                                                                <span class="speciality">Javascript Developer</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- / End Single Person -->
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ContactHTML" style="visibility:hidden;">
+                                This is the about me
+                            </div>
+                        </div>
+
+                        <!-- bootstrap js -->
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+                            crossorigin="anonymous"></script>
+                        <script src="../js/home_page.js"></script>
+                        <script src="../js/script_2.js"></script>
+</body>
+
+</html>

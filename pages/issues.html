@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issues Page</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #174f18;
+        }
+
+        header {
+            background-color: #0a250b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #fbfbfb;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section-animated {
+            border: 2px solid black;
+            margin: 30px;
+            border-radius: 18px;
+            background: rgba(0, 0, 0, 0.455);
+            border-radius: 16px;
+            box-shadow: 10px 10px 2px rgb(0, 0, 0);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(235, 235, 235, 0.98);
+        }
+
+        h3,
+        p,
+        ul {
+            color: rgb(186, 186, 186);
+        }
+
+        a {
+            color: orange;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        footer {
+            background-color: #0a250b;
+            bottom: 0px;
+        }
+
+        .img {
+            width: 100%;
+            height: 400px;
+            background: url("https://source.unsplash.com/random/?illustration");
+            border-radius: 10px;
+            border: 1px solid white;
+            box-shadow: 3px 3px 2px rgba(255, 255, 255, 0.348);
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+        .top-bar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .right{
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div><a href="./home.html"><img src="../assets/logo.png" style="width:100px;"></a></div>
+            <div class="right">
+                <h1>Issues Page</h1>
+                <p>Highlighting important topics and ongoing challenges</p>
+            </div>
+        </div>
+    </header>
+    <section class="section-animated ">
+        <div class="img"></div>
+        <h2>Featured Issues</h2>
+        <div>
+            <h3>Climate Change</h3>
+            <p>Climate change is one of the most pressing issues of our time...</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <h3>Social Justice</h3>
+            <p>Addressing inequality and promoting fairness...</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+    <section class="section-animated ">
+        <div class="img" style="background: url('https://source.unsplash.com/random/?town');"></div>
+        <h2>Detailed Issues</h2>
+        <div>
+            <h3>Education Disparities</h3>
+            <p>Access to quality education is not equal for all...</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <h3>Healthcare Accessibility</h3>
+            <p>Many people lack access to essential healthcare services...</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+    <section class="section-animated ">
+        <div class="img" style="background: url('https://source.unsplash.com/random/?village');"></div>
+        <h2>Get Involved</h2>
+        <p>You can make a difference! Here are some ways to get involved:</p>
+        <ul>
+            <li>Volunteer with local organizations</li>
+            <li>Donate to causes you care about</li>
+            <li>Spread awareness on social media</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Issues Page. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
