@@ -1,4 +1,4 @@
-## [Your Community App Name]
+## Civic Link
 
 Welcome to Civic Link – a collaborative platform dedicated to society or community to report or for services in the society means a community handler.
 
