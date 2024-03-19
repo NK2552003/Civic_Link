@@ -16,14 +16,7 @@ Civic Link is an open-source project aimed at Creating the digital society. I be
 
 ### How to Contribute
 
-We welcome contributions from the community to enhance and improve Civic Link. Here's how you can get involved:
-
-- **Report Bugs:** Found a bug? Report it by opening an issue on GitHub.
-  
-- **Feature Requests:** Have an idea for a new feature? Submit a feature request on GitHub.
+Would love to welcome contributions from the community to enhance and improve Civic Link. Here's how you can get involved:
   
 - **Code Contributions:** Interested in contributing code? Fork the repository, make your changes, and submit a pull request. Be sure to follow our contribution guidelines.
 
-### Contact
-
-Have questions or feedback? I'd love to hear from you! 
