@@ -1,6 +1,6 @@
 ## Civic Link
 
-Here is the demo link for this webpage "https://nk2552003.github.io/Civic_Link/" 
+Here is the demo link for this webpage(Desktop only) "https://nk2552003.github.io/Civic_Link/" 
 
 Welcome to Civic Link – a collaborative platform dedicated to society or community to report or for services in the society means a community handler.
 
