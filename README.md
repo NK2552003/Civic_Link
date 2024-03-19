@@ -24,6 +24,6 @@ We welcome contributions from the community to enhance and improve Civic Link. H
   
 - **Code Contributions:** Interested in contributing code? Fork the repository, make your changes, and submit a pull request. Be sure to follow our contribution guidelines.
 
-### Contact Us
+### Contact
 
 Have questions or feedback? I'd love to hear from you! 
